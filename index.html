@@ -39,6 +39,7 @@
 				<ul class="navbar-nav nav ml-auto">
 					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
 					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
 					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 				</ul>
@@ -75,39 +76,96 @@
 	<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
 		<div class="container">
 			<div class="row d-flex">
+				<!-- Image Section -->
 				<div class="col-md-6 col-lg-5 d-flex">
-					<div class="img-about img d-flex align-items-stretch">
+					<div class="img-about img d-flex align-items-stretch w-100">
 						<div class="overlay"></div>
-						<div class="img d-flex align-self-stretch align-items-center"
-							>
+						<div class="img d-flex align-items-center justify-content-center w-100">
+							<img src="/images/image.png" alt="About Image" class="img-fluid">
 						</div>
 					</div>
 				</div>
+	
+				<!-- Text Section -->
 				<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
 					<div class="row justify-content-start pb-3">
 						<div class="col-md-12 heading-section ftco-animate">
 							<h1 class="big">About</h1>
 							<h2 class="mb-4">About Me</h2>
-							<p>Student pursuing B.tech at Silver Oak University</p>
+							<p>Student pursuing B.Tech at Silver Oak University</p>
 							<ul class="about-info mt-4 px-md-0 px-2">
 								<li class="d-flex"><span>Name:</span> <span>Nasir Malek</span></li>
 								<li class="d-flex"><span>Date of birth:</span> <span>May 17, 2003</span></li>
-								<li class="d-flex"><span>Address:</span> <span>Viramgam,Ahmedabad</span></li>
+								<li class="d-flex"><span>Address:</span> <span>Viramgam, Ahmedabad</span></li>
 								<li class="d-flex"><span>Pin code:</span> <span>382150</span></li>
 								<li class="d-flex"><span>Email:</span> <span>nasirmalek517@gmail.com</span></li>
-								<li class="d-flex"><span>Phone: </span> <span>+91 8320629058</span></li>
+								<li class="d-flex"><span>Phone:</span> <span>+91 8320629058</span></li>
 							</ul>
 						</div>
 					</div>
 					<div class="counter-wrap ftco-animate d-flex mt-md-3">
 						<div class="text">
-							<p><a href="./images/image_3.jpg" class="btn btn-primary py-3 px-3" download>Download CV</a></p>
+							<p><a href="/images/Resume.pdf" class="btn btn-primary py-3 px-3" download>Download CV</a></p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	
+
+	<section class="ftco-section" id="projects-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Projects</h1>
+					<h2 class="mb-4">Projects</h2>
+					<p>A showcase of my work and notable projects.</p>
+				</div>
+			</div>
+			<div class="row">
+				<!-- Project 1 -->
+				<div class="col-md-4 ftco-animate">
+					<div class="project-entry">
+						<a href="https://github.com/nasirmalek/chatbot" class="img d-block" style="background-image: url(images/CHATBOT.png); background-size: cover; background-position: center; height: 250px; display: block;"></a>
+						<div class="text pt-3 px-3">
+							<h3><a href="https://github.com/nasirmalek/chatbot">ChatBot</a></h3>
+							<p>A chatbot interacting with an API, Django logo in the background, secure authentication lock, and a dynamic conversation flow.</p>
+							<p><a href="https://github.com/nasirmalek/chatbot" class="btn btn-primary py-2 px-3">View Project</a></p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 2 -->
+				<div class="col-md-4 ftco-animate">
+					<div class="project-entry">
+						<a href="https://github.com/nasirmalek/MegaBlog" class="img d-block" style="background-image: url(images/MegaBlog.png); background-size: cover; background-position: center; height: 250px; display: block;"></a>
+						<div class="text pt-3 px-3">
+							<h3><a href="https://github.com/nasirmalek/MegaBlog">MegaBlog</a></h3>
+							<p>Blogging platform with a rich text editor, blog cards in a grid layout, ReactJS logo, and authentication shield.</p>
+							<p><a href="https://megablog-webapp.vercel.app/" class="btn btn-primary py-2 px-3">View Project</a></p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 3 -->
+				<div class="col-md-4 ftco-animate">
+					<div class="project-entry">
+						<a href="https://github.com/nasirmalek/chat-app" class="img d-block" style="background-image: url(images/chat-app.png); background-size: cover; background-position: center; height: 250px; display: block;"></a>
+						<div class="text pt-3 px-3">
+							<h3><a href="https://github.com/nasirmalek/chat-app">Chat-App</a></h3>
+							<p>Built a real-time chat application in Django where users can join or create group chats by entering the room name.</p>
+							<p><a href="https://github.com/nasirmalek/chat-app" class="btn btn-primary py-2 px-3">View Project</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+
 	<section class="ftco-section" id="skills-section">
 		<div class="container">
 			<div class="row justify-content-center pb-5">
@@ -144,9 +202,9 @@
 					<div class="progress-wrap ftco-animate">
 						<h3>Python</h3>
 						<div class="progress">
-							<div class="progress-bar color-3" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-								aria-valuemax="100" style="width:95%">
-								<span>95%</span>
+							<div class="progress-bar color-3" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+								aria-valuemax="100" style="width:75%">
+								<span>75%</span>
 							</div>
 						</div>
 					</div>
@@ -166,9 +224,9 @@
 					<div class="progress-wrap ftco-animate">
 						<h3>Java</h3>
 						<div class="progress">
-							<div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-								aria-valuemax="100" style="width:70%">
-								<span>70%</span>
+							<div class="progress-bar color-5" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+								aria-valuemax="100" style="width:50%">
+								<span>50%</span>
 							</div>
 						</div>
 					</div>
@@ -188,12 +246,12 @@
 		</div>
 	</section>
 
-	<section class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+	<section class="ftco-section ftco-hireme img margin-top" style="background-image: url(/images/bg_1.jpg)">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-7 ftco-animate text-center">
 					<p></p>
-					<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Hire me</a></p>
+					<p class="mb-0"><a href="https://www.linkedin.com/in/nasir-malek-m17/" class="btn btn-primary py-3 px-5">Hire me</a></p>
 				</div>
 			</div>
 		</div>
@@ -263,7 +321,7 @@
 				</div>
 
 				<div class="col-md-6 d-flex">
-					<div class="img" style="background-image: url(/images/bg_1.jpg);"></div>
+					<div style="display:inline-block;position:relative"><img src="https://doodleipsum.com/700x554.7/outline?bg=ffbd39&i=c03e7275e5d70c0305b16230cb66f01c" alt="Life Management by Karthik Srinivas" /><p style="position:absolute;bottom:.5rem;right:.5rem;font-family:sans-serif;color:black"><a href="https://blush.design/artists/2R6I2GWLU5B6Czx7Jma4/karthik-srinivas"></a></p></div>
 				</div>
 			</div>
 		</div>
