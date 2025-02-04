@@ -89,3 +89,50 @@
         width: 100%;
     }
 }
+
+
+/*Doodle ipsum img*/
+
+@media (max-width: 1024px) {
+    .col-md-6.d-flex {
+        justify-content: center;
+        align-items: center;
+    }
+    .col-md-6.d-flex img {
+        max-width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-6.d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    .col-md-6.d-flex img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-6.d-flex {
+        padding: 10px;
+    }
+    .col-md-6.d-flex img {
+        max-width: 100%;
+    }
+    .col-md-6.d-flex p {
+        font-size: 0.8rem;
+        bottom: 0.3rem;
+        right: 0.3rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .col-md-6.d-flex img {
+        max-width: 100%;
+    }
+    .col-md-6.d-flex p {
+        font-size: 0.7rem;
+    }
+}
