@@ -136,3 +136,75 @@
         font-size: 0.7rem;
     }
 }
+
+
+@media (max-width: 1024px) {
+    .ftco-footer-widget h2 {
+        font-size: 1.5rem;
+    }
+    .ftco-footer-widget ul {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .ftco-footer .row {
+        text-align: center;
+    }
+    .ftco-footer-widget {
+        margin-bottom: 30px;
+    }
+    .ftco-footer-social {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .ftco-footer-widget h2 {
+        font-size: 1.3rem;
+    }
+    .ftco-footer-widget ul {
+        font-size: 0.9rem;
+    }
+    .ftco-footer .icon {
+        font-size: 1rem;
+    }
+    .ftco-footer .text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .ftco-footer {
+        padding: 20px 10px;
+    }
+    .ftco-footer-widget h2 {
+        font-size: 1.2rem;
+    }
+    .ftco-footer-widget ul {
+        font-size: 0.8rem;
+    }
+    .ftco-footer-social {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ftco-footer-social li {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 360px) {
+    .ftco-footer-widget h2 {
+        font-size: 1rem;
+    }
+    .ftco-footer-widget ul {
+        font-size: 0.75rem;
+    }
+    .ftco-footer .text {
+        font-size: 0.8rem;
+    }
+    .ftco-footer p {
+        font-size: 0.8rem;
+    }
+}
